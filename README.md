@@ -1,7 +1,7 @@
 # 隐形数字水印
 
 **基于watermark-dom的隐形水印**
-[watermark-dom tutorial](http://https://github.com/saucxs/watermark-dom "watermark-dom tutorial")
+[watermark-dom tutorial](https://github.com/saucxs/watermark-dom "watermark-dom tutorial")
 
 使用方法
 ```javascript
