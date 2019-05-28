@@ -1,15 +1,15 @@
 var watermark = require("watermark-dom")
 
 export default function(params) {
-  const {userinfo, visible = false, opts = {}} = params
-  if (userinfo) {
+  const {markContent, visible = false, opts = {}} = params
+  if (markContent) {
     setInterval(() => {
       const clientHeight = Math.max(document.body.scrollHeight, document.body.clientHeight, document.documentElement.clientHeight)
       const previousHeight = parseInt(sessionStorage.getItem('wartermark-clientHeight'), 0)
       if (clientHeight !== previousHeight) {
         sessionStorage.setItem('wartermark-clientHeight', Math.max(document.body.scrollHeight, document.body.clientHeight, document.documentElement.clientHeight))
         watermark.load({
-        watermark_txt: userinfo,
+        watermark_txt: markContent,
         watermark_x_space: 0,
         watermark_y_space: 0,
         watermark_alpha: visible ?  0.15 : 0.005,
