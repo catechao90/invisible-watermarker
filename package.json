@@ -1,0 +1,26 @@
+{
+  "name": "invisible-watermarker",
+  "version": "1.0.0",
+  "description": "invisible-water-marker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catechao90/invisible-watermarker.git"
+  },
+  "keywords": [
+    "watermark",
+    "invisible"
+  ],
+  "author": "cate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catechao90/invisible-water-marker/issues"
+  },
+  "homepage": "https://github.com/catechao90/invisible-water-marker#readme",
+  "dependencies": {
+    "watermark-dom": "^1.0.0"
+  }
+}
