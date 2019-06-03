@@ -13,3 +13,6 @@ invisibleWaterMarker({
 
 ###### 核心的代码是吧div的opacity设置为0.005，从页面上不会看出来水印，也不影响用户使用
 ###### 需要还原水印的话就把图片放到PS里面，建一个图层在上面。全部填充为黑色，混合模式选择实色混合这一类，然后即可还原水印
+
+**Collaborator**
++ [github/undefinedZNN](https://github.com/undefinedZNN)
