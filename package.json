@@ -1,6 +1,6 @@
 {
   "name": "invisible-watermarker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "invisible-water-marker",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,5 @@
     "url": "https://github.com/catechao90/invisible-water-marker/issues"
   },
   "homepage": "https://github.com/catechao90/invisible-water-marker#readme",
-  "dependencies": {
-    "watermark-dom": "^1.0.0"
-  }
+  "dependencies": {}
 }
