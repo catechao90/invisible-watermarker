@@ -6,7 +6,7 @@
 ```javascript
 invisibleWaterMarker({
 	watermarkTxt: 'zhao.jing.jing1@wowoohr.com', // required
-	invisible：true, // not required, default true
+	visible：false, // not required, default false
 	itemPadding: 0, // not required, default 0
 })
 ```
